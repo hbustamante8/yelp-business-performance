@@ -19,3 +19,4 @@ The data in this project comes from the [Yelp's business, reviews, and users sub
    - Alcohol served
    - Noise level
    - DrivThru
+   - Wheel chair accessible
