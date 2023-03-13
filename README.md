@@ -10,7 +10,7 @@ The data in this project comes from the [Yelp's business, reviews, and users sub
   - The original raw data contains information across diffierent areas in USA and Canada. For this project, the Yelp business table was best suited for creating a model as it contained information pertaining to what attributes the business had.
   The data was last updated on February 16, 2021
   - After filtering and cleaning the data, the total records of businesses left were 44,482 with a total of 34 columns that consist of attributes. 
-  - Examples of attributes that are included for businesses are
+  - Examples of attributes that are included for businesses are:
         - Open Monday
         - Restaurant delivery
         - WiFi
@@ -18,4 +18,4 @@ The data in this project comes from the [Yelp's business, reviews, and users sub
         - Noise level
         - DriveThru
 
-
+ 
