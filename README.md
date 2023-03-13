@@ -30,13 +30,16 @@ Various graphs and attributes were plotted to identify any themes througout the 
 ![image](https://user-images.githubusercontent.com/96553992/224855332-723a5e15-232f-472c-82e2-44549af10460.png)
 
 - Average star rating per ethnic food is highest for Korean cusine, followed by Indian.
-- ![image](https://user-images.githubusercontent.com/96553992/224855648-ed11b96e-5dfe-4f71-ac5d-bd748b8b514a.png)
+![image](https://user-images.githubusercontent.com/96553992/224855648-ed11b96e-5dfe-4f71-ac5d-bd748b8b514a.png)
 
 - Based on ethnic foods, restaurant delivery for Italian and Mexican food is the highest in comparative to the other ethnic foods. It can be understood that majority of places deliver.
-- ![image](https://user-images.githubusercontent.com/96553992/224856375-455716a2-db28-44a2-b796-4a4b3926734a.png)
+ ![image](https://user-images.githubusercontent.com/96553992/224856375-455716a2-db28-44a2-b796-4a4b3926734a.png)
 
 - There are ethnic foods in each state but how much and what is the proportion? Below is a graph that shows the distribtion
-- ![image](https://user-images.githubusercontent.com/96553992/224856636-ce74a6ba-7e1e-4e7f-9356-101b3f4839c3.png)
+ ![image](https://user-images.githubusercontent.com/96553992/224856636-ce74a6ba-7e1e-4e7f-9356-101b3f4839c3.png)
 
-- When it comes to being open on a Monday, how do restaurants perform on average in each state. Below is a graph that describes that relationship throught the data 
-- ![image](https://user-images.githubusercontent.com/96553992/224856801-833bc2fe-89d6-4c42-9a5d-f1a5f8bb6592.png)
+- When it comes to being open on a Monday, how do restaurants perform on average in each state? Below is a graph that describes that relationship throughout the data 
+ ![image](https://user-images.githubusercontent.com/96553992/224856801-833bc2fe-89d6-4c42-9a5d-f1a5f8bb6592.png)
+ - Comparitvely, what is the performacne of restaraunts in each state that are open or not on weekends? Below is graph that describes that relationship
+ ![image](https://user-images.githubusercontent.com/96553992/224857035-553bb338-c67c-42e7-b989-142d2706b177.png)
+
