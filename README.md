@@ -18,4 +18,15 @@ The data in this project comes from the [Yelp's business, reviews, and users sub
         - Noise level
         - DriveThru
 
- 
+ - Examples of important attributes:
+
+  - Review Count
+  - Median Income(dollars)
+  - Total Estimate Households per Postal Code
+  - Noise Level
+  - Wheelchair Accessibility
+  - Delivery 
+  - Takeout
+  - Outdoor Dining
+  - Vegetarian Options
+  - Free Wi-Fi
