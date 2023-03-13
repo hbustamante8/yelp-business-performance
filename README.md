@@ -13,9 +13,9 @@ The data in this project comes from the [Yelp's business, reviews, and users sub
 
  - Examples of important attributes:
 
-  - Open Monday
-  - Restaurant delivery
-  - WiFi
-  - Alcohol served
-  - Noise level
-  - DrivThru
+   - Open Monday
+   - Restaurant delivery
+   - WiFi
+   - Alcohol served
+   - Noise level
+   - DrivThru
