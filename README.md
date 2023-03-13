@@ -6,3 +6,4 @@ The purpose of this project is to create a machine learning model that can predi
 
 
 ## The Data
+The data in this project comes from the [Yelp's business, reviews, and users subset data](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset?datasetId=10100&language=Python&outputs=null) extracted from Kaggle. 
