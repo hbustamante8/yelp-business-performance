@@ -24,8 +24,14 @@ The data in this project comes from the [Yelp's business, reviews, and users sub
 
 ## Data exploratory data analysis
 
-Some interesting insights that can be derived from the data are below.
+Various graphs and attributes were plotted to identify any themes througout the data and what key takeaways can be intepreted before expanding on the machine learning models. Some interesting insights that can be derived from the data are below.
 
 - Out of the most common ethnic foods in the data, Mexican cusine is most prevalent while Korean is least present in the data.
 ![image](https://user-images.githubusercontent.com/96553992/224855332-723a5e15-232f-472c-82e2-44549af10460.png)
-- 
+
+- Average star rating per ethnic food is highest for Korean cusine, followed by Indian.
+- ![image](https://user-images.githubusercontent.com/96553992/224855648-ed11b96e-5dfe-4f71-ac5d-bd748b8b514a.png)
+
+- Based on ethnic foods, restaurant delivery for Italian and Mexican food is the highest in comparative to the other ethnic foods. It can be understood that majority of places deliver.
+- ![image](https://user-images.githubusercontent.com/96553992/224856375-455716a2-db28-44a2-b796-4a4b3926734a.png)
+
