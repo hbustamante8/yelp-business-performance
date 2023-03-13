@@ -20,3 +20,12 @@ The data in this project comes from the [Yelp's business, reviews, and users sub
    - Noise level
    - DrivThru
    - Wheel chair accessible
+
+
+## Data exploratory data analysis
+
+Some interesting insights that can be derived from the data are below.
+
+- Out of the most common ethnic foods in the data, Mexican cusine is most prevalent while Korean is least present in the data.
+![image](https://user-images.githubusercontent.com/96553992/224855332-723a5e15-232f-472c-82e2-44549af10460.png)
+- 
