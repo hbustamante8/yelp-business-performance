@@ -22,7 +22,7 @@ The data in this project comes from the [Yelp's business, reviews, and users sub
    - Wheel chair accessible
 
 
-## Data exploratory data analysis
+## Exploratory Data Analysis
 
 Various graphs and attributes were plotted to identify any themes througout the data and what key takeaways can be intepreted before expanding on the machine learning models. Some interesting insights that can be derived from the data are below.
 
@@ -35,3 +35,8 @@ Various graphs and attributes were plotted to identify any themes througout the 
 - Based on ethnic foods, restaurant delivery for Italian and Mexican food is the highest in comparative to the other ethnic foods. It can be understood that majority of places deliver.
 - ![image](https://user-images.githubusercontent.com/96553992/224856375-455716a2-db28-44a2-b796-4a4b3926734a.png)
 
+- There are ethnic foods in each state but how much and what is the proportion? Below is a graph that shows the distribtion
+- ![image](https://user-images.githubusercontent.com/96553992/224856636-ce74a6ba-7e1e-4e7f-9356-101b3f4839c3.png)
+
+- When it comes to being open on a Monday, how do restaurants perform on average in each state. Below is a graph that describes that relationship throught the data 
+- ![image](https://user-images.githubusercontent.com/96553992/224856801-833bc2fe-89d6-4c42-9a5d-f1a5f8bb6592.png)
