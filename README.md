@@ -46,4 +46,4 @@ Various graphs and attributes were plotted to identify any themes througout the 
  - Comparitvely, what is the performacne of restaraunts in each state that are open or not on weekends? Below is graph that describes that relationship
  ![image](https://user-images.githubusercontent.com/96553992/224857035-553bb338-c67c-42e7-b989-142d2706b177.png)
 
-More can be seen in the jupyter notebook [here](
+More can be seen in the jupyter notebook [here](https://github.com/hbustamante8/yelp-business-performance/blob/main/exploratory_data_analysis.ipynb)
