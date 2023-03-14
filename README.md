@@ -52,3 +52,10 @@ These were just some of the important high level insights of what the data consi
 ## Machine Learning Models
 
  ### Preparing the data for machine learning
+ After taking the clean data dataset, there was still a few more steps to put the data through different machine learning models. Dropping non-numericla columns as well as taking out 'XMS' and 'HI' state as there were only 1-2 records for each of these and could potentially throw off the model based on using dummy variables. The data was separated into two different sets that can be used for machine learning. One set is dropping the state and city columns while the other one kept them and dummy variables were made fore the respective columns. 
+ 
+ 
+ ### Models tested
+ #### Linear Regression
+ The first model tested was a linear regresssion 
+ 
