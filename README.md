@@ -63,6 +63,6 @@ These were just some of the important high level insights of what the data consi
    - Secondly, this was model was chosen as it is scalable and highly accurate implementation of gradient boosting. Five fold cross validation was used to validate the performance of the models.The dataset with (X_no_city_state,y_no_city_state ) performed better in this case slightly. Accuracy score was 36.4% and standard deviation was .009 between the 5 different accuracy scores. The  (X_filterred,y_filtered) dataset performed at a close 36.1%.
 
 - Neural Network Model
-  - Secondly, this was model was chosen as it is scalable and highly accurate implementation of gradient boosting. Five fold cross validation was used to validate the performance of the models.The dataset with (X_no_city_state,y_no_city_state ) performed better in this case slightly. Accuracy score was 36.4% and standard deviation was .009 between the 5 different accuracy scores. The  (X_filterred,y_filtered) dataset performed at a close 36.1%.
+  - (Stopping point)Finally, Neural Networks were chose to learn complex and non-linear relationships in the yelp data. Five fold cross validation was used to validate the performance of the models.The dataset with (X_no_city_state,y_no_city_state ) performed better in this case slightly. Accuracy score was 36.4% and standard deviation was .009 between the 5 different accuracy scores. The  (X_filterred,y_filtered) dataset performed at a close 36.1%.
 
  
