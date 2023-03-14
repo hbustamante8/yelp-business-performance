@@ -47,3 +47,8 @@ Various graphs and attributes were plotted to identify any themes througout the 
  ![image](https://user-images.githubusercontent.com/96553992/224857035-553bb338-c67c-42e7-b989-142d2706b177.png)
 
 These were just some of the important high level insights of what the data consisits of and what patterns occur. The rest of the code can be seen [here](https://github.com/hbustamante8/yelp-business-performance/blob/main/exploratory_data_analysis.ipynb)
+
+
+## Machine Learning Models
+
+ ### Preparing the data for machine learning
