@@ -57,6 +57,6 @@ These were just some of the important high level insights of what the data consi
  
  ### Models tested
 - Linear Regression
- - The first model tested was linear regression for both the data sets. Five fold cross validation was used to validate the performance of the models.The dataset with (X_filterred,y_filtered) performed better in this case slightly. Accuracy score was 26.1% compared and standard deviation was .007 between the 5 different accuracy scores.
+  - The first model tested was linear regression for both the data sets. Five fold cross validation was used to validate the performance of the models.The dataset with (X_filterred,y_filtered) performed better in this case slightly. Accuracy score was 26.1% compared and standard deviation was .007 between the 5 different accuracy scores.
  
  
