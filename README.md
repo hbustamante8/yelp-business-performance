@@ -52,10 +52,11 @@ These were just some of the important high level insights of what the data consi
 ## Machine Learning Models
 
  ### Preparing the data for machine learning
- After taking the clean data dataset, there was still a few more steps to put the data through different machine learning models. Dropping non-numericla columns as well as taking out 'XMS' and 'HI' state as there were only 1-2 records for each of these and could potentially throw off the model based on using dummy variables. The data was separated into two different sets that can be used for machine learning. One set is dropping the state and city columns while the other one kept them and dummy variables were made fore the respective columns. 
+ After taking the clean data dataset, there was still a few more steps to put the data through different machine learning models. Dropping non-numericla columns as well as taking out 'XMS' and 'HI' state as there were only 1-2 records for each of these and could potentially throw off the model based on using dummy variables. The data was separated into two different sets that can be used for machine learning. One set is dropping the state and city columns ( X_no_city_state,y_no_city_state ) while the other one kept them and dummy variables were made fore the respective columns and filtered for cities with over 50 samples (X_filtered,y_filtered). 
  
  
  ### Models tested
- #### Linear Regression
- The first model tested was a linear regresssion 
+- Linear Regression
+ - The first model tested was linear regression for both the data sets. Five fold cross validation was used to validate the performance of the models.The dataset with (X_filterred,y_filtered) performed better in this case slightly. Accuracy score was 26.1% compared and standard deviation was .007 between the 5 different accuracy scores.
+ 
  
