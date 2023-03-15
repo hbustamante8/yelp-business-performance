@@ -57,12 +57,13 @@ These were just some of the important high level insights of what the data consi
  
  ### Models tested
 - Linear Regression
-  - The first model tested was linear regression for both the data sets. Five fold cross validation was used to validate the performance of the models.The dataset with (X_filterred,y_filtered) performed better in this case slightly. Accuracy score was 26.1% compared and standard deviation was .007 between the 5 different accuracy scores.
+  - The first model tested was linear regression for both the data sets. Five fold cross validation was used to validate the performance of the models.The dataset with (X_filterred,y_filtered) performed better in this case slightly. The mean accuracy score was 26.1% compared and standard deviation was .007 between the 5 different accuracy scores.
  
  - XG Boost Model
-   - Secondly, this was model was chosen as it is scalable and highly accurate implementation of gradient boosting. Five fold cross validation was used to validate the performance of the models.The dataset with (X_no_city_state,y_no_city_state ) performed better in this case slightly. Accuracy score was 36.4% and standard deviation was .009 between the 5 different accuracy scores. The  (X_filterred,y_filtered) dataset performed at a close 36.1%.
+   - Secondly, this was model was chosen as it is scalable and highly accurate implementation of gradient boosting. Five fold cross validation was used to validate the performance of the models.The dataset with (X_no_city_state,y_no_city_state ) performed better in this case slightly. The mean accuracy score was 36.4% and standard deviation was .009 between the 5 different accuracy scores. The  (X_filterred,y_filtered) dataset performed at a close 36.1%.
 
 - Neural Network Model
-  - (Stopping point)Finally, Neural Networks were chose to learn complex and non-linear relationships in the yelp data. Five fold cross validation was used to validate the performance of the models.The dataset with (X_no_city_state,y_no_city_state ) performed better in this case slightly. Accuracy score was 36.4% and standard deviation was .009 between the 5 different accuracy scores. The  (X_filterred,y_filtered) dataset performed at a close 36.1%.
+  - Finally, Neural Networks were chose to learn complex and non-linear relationships in the yelp data. Five fold cross validation was used to validate the performance of the models.The dataset with (X_filterred,y_filtered) performed better in this case by a very fine margin. The mean accuracy score was 30.3% and standard deviation was .023 between the 5 different accuracy scores. The (X_no_city_state,y_no_city_state) dataset performed at a close 29.5%.
 
+ ## Enhancing the XG Boost Model
  
