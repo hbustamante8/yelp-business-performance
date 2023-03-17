@@ -4,6 +4,9 @@
 
 The purpose of this project is to create a machine learning model that can predict a restauant's star rating based on its features it provides. Currently, yelp success is measured through star ratings which ranges from 1 to 5 stars.
 
+## Business Problem
+
+There are many existing restaurants as well as new restaurants that understand the importance of having a good reputation. In this day in age, online reviews are the main source of reasoning for customers to make their decsions. Yelp is one of the biggest platforms for restaurant reviews in the form of star rating and text comments. A business would like to know what features offered as a restaurant will allow them to have an idea of what star rating they would get or if they would perform well. This would add value because the respective business could see what features they should change and how they can keep their reputation as high as possible. Currently, as business can check how well they are doing by going on the app but they are not able to  see where they could potentially be based on adding some features. Their current reviews may also be skewed due to number of reviews, surrounding area, and competition. 
 
 ## The Data and Cleaning 
 The data in this project comes from the [Yelp's business, reviews, and users subset data](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset?datasetId=10100&language=Python&outputs=null) extracted from Kaggle. 
