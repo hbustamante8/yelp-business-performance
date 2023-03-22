@@ -85,4 +85,4 @@ These were just some of the important high level insights of what the data consi
      - reg_lambda
      - n_estimators
      
-  
+  After finding the optimal parameters throught the testing, I then ran the XG Boost Model again with these values. The accuracy score increased by almost 2% which is indicated the tuning had a signicant impact. Previously the model was getting an accuracy of about 36% and now the improved score is 38%. 
