@@ -30,7 +30,9 @@ The data in this project comes from the [Yelp's business, reviews, and users sub
 Various graphs and attributes were plotted to identify any themes througout the data and what key takeaways can be intepreted before expanding on the machine learning models. Some interesting insights that can be derived from the data are below.
 
 - The distribution of the star ratings of the data is essential to understanding what our data looks like a whole.
-![image](https://user-images.githubusercontent.com/96553992/224862791-36e45430-6d4b-4bf9-aa19-c6b364d61730.png)
+ ![image](https://user-images.githubusercontent.com/96553992/226778636-61424bf2-93d6-4adc-8e15-38c71559de85.png)
+
+ 
 
 - Out of the most common ethnic foods in the data, Mexican cusine is most prevalent while Korean is least present in the data.
 ![image](https://user-images.githubusercontent.com/96553992/224855332-723a5e15-232f-472c-82e2-44549af10460.png)
