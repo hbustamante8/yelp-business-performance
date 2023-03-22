@@ -30,7 +30,8 @@ The data in this project comes from the [Yelp's business, reviews, and users sub
 Various graphs and attributes were plotted to identify any themes througout the data and what key takeaways can be intepreted before expanding on the machine learning models. Some interesting insights that can be derived from the data are below.
 
 - The distribution of the star ratings of the data is essential to understanding what our data looks like a whole.
- ![image](https://user-images.githubusercontent.com/96553992/226778636-61424bf2-93d6-4adc-8e15-38c71559de85.png)
+ ![image](https://user-images.githubusercontent.com/96553992/226778761-234ce816-4287-4e21-88d4-5c05ac409f37.png)
+
 
  
 
