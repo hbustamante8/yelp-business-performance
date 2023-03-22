@@ -73,14 +73,14 @@ These were just some of the important high level insights of what the data consi
 
  ## Tuning the XG Boost Model
  Since the XG Boost Model perfomed the best out of all 3 models tested, I tuned the paramaters of the model to increase the performance. Below are the parameters I tuned within the model through testing different values for each respective parameter.
-     * Learning rate
-     * max_depth
-     * min_child_weight
-     * gamma
-     * subsample
-     * colsample_bytree
-     * reg_alpha
-     * reg_lambda
-     * n_estimators
+     - Learning rate
+     - max_depth
+     - min_child_weight
+     - gamma
+     - subsample
+     - colsample_bytree
+     - reg_alpha
+     - reg_lambda
+     - n_estimators
      
    
