@@ -10,7 +10,7 @@
 
 ## Purpose of project
 
-The purpose of this project is to create a machine learning model that can predict a restaurant’s star rating based on its features it provides. Currently, yelp success is measured through star ratings which ranges from 1 to 5 stars.
+The purpose of this project is to create a machine learning model that can predict a restaurant’s star rating based on features it provides. Currently, yelp success is measured through star ratings which ranges from 1 to 5 stars.
 
 ## Business Problem
 
