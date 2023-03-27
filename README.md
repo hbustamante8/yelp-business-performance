@@ -6,7 +6,7 @@ The purpose of this project is to create a machine learning model that can predi
 
 ## Business Problem
 
-There are many existing restaurants as well as new restaurants that understand the importance of having a good reputation. In this day in age, online reviews are the main source of reasoning for customers to make their decsions. Yelp is one of the biggest platforms for restaurant reviews in the form of star rating and text comments. A business would like to know what features offered as a restaurant will allow them to have an idea of what star rating they would get or if they would perform well. This would add value because the respective business could see what features they should change and how they can keep their reputation as high as possible. Currently, as business can check how well they are doing by going on the app but they are not able to  see where they could potentially be based on adding some features. Their current reviews may also be skewed due to number of reviews, surrounding area, and competition. 
+There are many existing restaurants as well as new restaurants that understand the importance of having a good reputation. In this day in age, online reviews are the main source of reasoning for customers to make their decsions. Yelp is one of the biggest platforms for restaurant reviews in the form of star rating and text comments. A business would like to know what features offered as a restaurant will allow them to have an idea of what star rating they would get or if they would perform well. This would add value because the respective business could see what features they should change and how they can keep their reputation as high as possible. Currently, as businesses can check how well they are doing by going on the app but they are not able to see where they could potentially be based on adding some features. Their current reviews may also be skewed due to number of reviews, surrounding area, and competition. 
 
 ## The Data and Cleaning 
 The majority of the data in this project comes from the [Yelp's business, reviews, and users subset data](https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset?datasetId=10100&language=Python&outputs=null) extracted from Kaggle. 
@@ -28,6 +28,11 @@ The majority of the data in this project comes from the [Yelp's business, review
    - Noise level
    - DrivThru
    - Wheel chair accessible
+
+- Examples of income columns:
+   - Total_Estimate_Households_per_Zip
+   - Total_Estimate_Married-couple_Family_households
+   - Median_Income(dollars)
 
 
 ## Exploratory Data Analysis
@@ -63,21 +68,21 @@ These were just some of the important high level insights of what the data consi
 ## Machine Learning Models
 
  ### Preparing the data for machine learning
- After taking the clean data dataset, there was still a few more steps to put the data through different machine learning models. Dropping non-numericla columns as well as taking out 'XMS' and 'HI' state as there were only 1-2 records for each of these and could potentially throw off the model based on using dummy variables. The data was separated into two different sets that can be used for machine learning. One set is dropping the state and city columns ( X_no_city_state,y_no_city_state ) while the other one kept them and dummy variables were made fore the respective columns and filtered for cities with over 50 samples (X_filtered,y_filtered). 
+ After taking the clean data dataset, there was still a few more steps to put the data through different machine learning models. Dropping non-numericla columns as well as taking out 'XMS' and 'HI' state as there were only 1-2 records for each of these and could potentially throw off the model based on using dummy variables. The data was separated into two different sets that can be used for machine learning. One set is dropping the state and city columns ( X_no_city_state,y_no_city_state ) while the other one kept them and dummy variables were made fore the respective columns and filtered for cities with over 50 samples (X_filtered,y_filtered) to keep the data as valuable as possible for machine learning. 
  
  
  ### Models tested
 - Linear Regression
-  - The first model tested was linear regression for both the data sets. Five fold cross validation was used to validate the performance of the models.The dataset with (X_filterred,y_filtered) performed better in this case slightly. The mean accuracy score was 26.1% compared and standard deviation was .007 between the 5 different accuracy scores.
+  - The first model tested was linear regression for both the data sets. Five fold cross validation was used to validate the performance of the models.The dataset with (X_filterred,y_filtered) performed better in this case slightly. The mean accuracy score was 26.26% compared and standard deviation was .009 between the 5 different accuracy scores.
  
  - XG Boost Model
-   - Secondly, this was model was chosen as it is scalable and highly accurate implementation of gradient boosting. Five fold cross validation was used to validate the performance of the models.The dataset with (X_no_city_state,y_no_city_state ) performed better in this case slightly. The mean accuracy score was 36.4% and standard deviation was .009 between the 5 different accuracy scores. The  (X_filterred,y_filtered) dataset performed at a close 36.1%.
+   - Secondly, this was model was chosen as it is scalable and highly accurate implementation of gradient boosting. Five fold cross validation was used to validate the performance of the models.The dataset with (X_filterred,y_filtered) performed better in this case slightly. The mean accuracy score was 36.16% and standard deviation was .001 between the 5 different accuracy scores. The (X_no_city_state,y_no_city_state) dataset performed at a close 35.96%.
 
 - Neural Network Model
-  - Finally, Neural Networks were chose to learn complex and non-linear relationships in the yelp data. Five fold cross validation was used to validate the performance of the models.The dataset with (X_filterred,y_filtered) performed better in this case by a very fine margin. The mean accuracy score was 30.3% and standard deviation was .023 between the 5 different accuracy scores. The (X_no_city_state,y_no_city_state) dataset performed at a close 29.5%.
+  - Finally, Neural Networks were chose to learn complex and non-linear relationships in the yelp data. Five fold cross validation was used to validate the performance of the models.The dataset with (X_filterred,y_filtered) performed better in this case by a very fine margin. The mean accuracy score was 26.68% and standard deviation was .044 between the 5 different accuracy scores. The (X_no_city_state,y_no_city_state) dataset performed at a close 25.96%.
 
  ## Tuning the XG Boost Model
- Since the XG Boost Model perfomed the best out of all 3 models tested, I tuned the paramaters of the model to increase the performance. Specifically, I chose the to tune the model for X_no_city_state,y_no_city_state since it peformed best out of all models tested. Below are the parameters I tuned within the model through testing different values for each respective parameter.
+ Since the XG Boost Model perfomed the best out of all 3 models tested, I tuned the paramaters of the model to increase the performance. Specifically, I chose the to tune the model for X_filterred,y_filtered since it peformed best out of all models tested. Below are the parameters I tuned within the model through testing different values for each respective parameter.
  
  - List of paramters tuned
      - Learning rate
@@ -91,3 +96,7 @@ These were just some of the important high level insights of what the data consi
      - n_estimators
      
   After finding the optimal parameters throught the testing, I then ran the XG Boost Model again with these values. The accuracy score increased by almost 2% which is indicated the tuning had a signicant impact. Previously the model was getting an accuracy of about 36% and now the improved score is 38%. 
+  
+  ## Conclusion
+  
+  
