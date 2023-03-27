@@ -104,4 +104,10 @@ These were just some of the important high level insights of what the data consi
   
   ## Conclusion
   
+  Overall, the best suited machine learning model for this data was identified as the XG Boost model. A business can fill out what they currently offer in terms of features and see what their star rating would be. From there, enhancements could be made on their restaruant strategy or offerings to be in a better position of recieving favoralbe ratings assuming their food quality remained stable. This model also includes information about income made around the area based on postal code to include the trends of surrounding household areas throughout all the different restaraunts in the data. Even if the machine learning model doesn't have a high accuracy, it can still be useful for predicting star ratings. This is because the model can provide a general idea of what the rating might be, even if it's not entirely accurate. In some cases, even a rough prediction can be helpful, especially if it's based on a large amount of data. Additionally, the model's predictions can be used as a starting point for further analysis or refinement, such as identifying areas where the model may need improvement or adjusting the input data to improve the model's accuracy. 
+  
+  ## Improvements
+  
+An area of improvement could be in looking for another yelp data source that has more data samples that are categorized as restaurants. Having more records could lead to even more accurate machine learning models. Another improvement that could be potentially explored is finding data that is closer to the current date. The data used is  based on data primairlty from 2021 and restaraunt trends could have varied slightly from then. Additionally, the model's predictions can be used as a starting point for further analysis or refinement, such as identifying areas where the model may need improvement or adjusting the input data to improve the model's accuracy. 
+  
   
