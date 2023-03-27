@@ -119,4 +119,3 @@ These were just some of the important high-level insights of what the data consi
 An area of improvement could be in looking for another yelp data source that has more data samples that are categorized as restaurants. Having more records could lead to even more accurate machine learning models. Another improvement that could be potentially explored is finding data that is closer to the current date. The data used is  based on data primarily from 2021 and restaurant trends could have varied slightly from then. Additionally, the model's predictions can be used as a starting point for further analysis or refinement, such as identifying areas where the model may need improvement or adjusting the input data to improve the model's accuracy. 
   
   
-![image](https://user-images.githubusercontent.com/96553992/228054667-4a6ba04b-b4e2-4102-877f-0e2c34446d95.png)
