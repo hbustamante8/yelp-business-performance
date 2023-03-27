@@ -47,7 +47,7 @@ The majority of the data in this project comes from the [Yelp's business, review
    - Total_Estimate_Married-couple_Family_households
    - Median_Income(dollars)
  
- The code of all the cleaning of the data can be found[ here](https://github.com/hbustamante8/yelp-business-performance/blob/main/cleaning%20and%20exploratory%20data%20analysis/clean_yelp_user_data.ipynb)
+ The code cleaning the data can be found[ here](https://github.com/hbustamante8/yelp-business-performance/blob/main/cleaning%20and%20exploratory%20data%20analysis/clean_yelp_user_data.ipynb)
  
 
 ## Exploratory Data Analysis
