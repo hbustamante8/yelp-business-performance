@@ -1,3 +1,5 @@
+![image](https://user-images.githubusercontent.com/96553992/228055913-a9285d0a-a8bc-4c71-8c09-6404f87099e2.png)
+
 # yelp-business-performance
 
 ## Purpose of project
