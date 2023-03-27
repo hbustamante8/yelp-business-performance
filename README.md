@@ -75,7 +75,7 @@ Various graphs and attributes were plotted to identify any themes throughout the
  - Comparatively, what is the performance of restaurants in each state that are open or not on weekends? Below is graph that describes that relationship
  ![image](https://user-images.githubusercontent.com/96553992/224857035-553bb338-c67c-42e7-b989-142d2706b177.png)
 
-These were just some of the important high-level insights of what the data consists of and what patterns occur. The rest of the code can be seen [here](https://github.com/hbustamante8/yelp-business-performance/blob/main/exploratory_data_analysis.ipynb)
+These were just some of the important high-level insights of what the data consists of and what patterns occur. The rest of the code can be seen [here](https://github.com/hbustamante8/yelp-business-performance/blob/main/cleaning%20and%20exploratory%20data%20analysis/exploratory_data_analysis.ipynb)
 
 
 ## Machine Learning Models
